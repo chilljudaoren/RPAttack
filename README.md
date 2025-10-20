@@ -16,7 +16,7 @@ conda activate RPA
 - Download the checkpoints of the finetuned VLPMs and MLLMs: [BLIP](https://github.com/salesforce/BLIP), [X-VLM](https://github.com/zengyan-97/X-VLM), [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2), and [InstructBLIP](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip)
 
 ## Training
-[Download](https://drive.google.com/drive/folders/1XwSiBpdOgbtI0lyjEO6coq_fiObg-9P6?usp=sharing) the generators and UAPs.
+[Download](https://drive.google.com/drive/folders/1r1rFpiif4Juv-tlFSRtrBAuWjlm0CjNY?usp=sharing) the generators and UAPs.
 
 ## Contact
 
