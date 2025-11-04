@@ -49,7 +49,6 @@ class RPA_uap:
         else:
             loss_kl = self._compute_kl_loss(texts, adv_embeds, self.ori_embed)
 
-
         text_embeds = self.ref_model.tokenizer(texts, return_tensors="pt", padding=True, truncation=True).to(self.device)
         text_output = self.ref_model.text_encoder(text_embeds.input_ids, attention_mask=text_embeds.attention_mask,
                                                 return_dict=True, mode='text').last_hidden_state
@@ -65,7 +64,7 @@ class RPA_uap:
         return total_loss
 
     def _perturb_embedding(self, image_embeds, max_length=30):
-        input_ids = torch.tensor([self.model.tokenizer.bos_token_id]).unsqueeze(0).to(self.device)  # 初始 token
+        input_ids = torch.tensor([self.model.tokenizer.bos_token_id]).unsqueeze(0).to(self.device)
 
         adv_caption = []
         bs = image_embeds.size(0)
@@ -88,7 +87,6 @@ class RPA_uap:
             vocab_size = len(self.model.tokenizer)
             filtered_logits[:, vocab_size:] = -float('inf')
 
-            ## RPA
             next_token_id = self.multinomial(F.softmax(filtered_logits, dim=-1), 1)
 
             for i in range(bs):
