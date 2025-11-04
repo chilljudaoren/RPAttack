@@ -20,6 +20,9 @@ conda activate RPA
 ## Training
 <!--Download](https://drive.google.com/drive/folders/1r1rFpiif4Juv-tlFSRtrBAuWjlm0CjNY?usp=sharing) the UAP of RPA.-->
 After downloading the corresponding packages, datasets, and model weights, you can start training the RPA.
+```bash
+python train_uap.py
+```
 
 ## Contact
 
