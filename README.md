@@ -2,7 +2,7 @@
 
 This source code accompanies the article `RPA: Recursive Perturbation-Based Universal Adversarial Attacks on Multimodal Generative Tasks', to appear in IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) in 2025.
 
-⚠️ **This repository is currently under construction......**
+⚠️ **I’m in the final stretch before graduation and focused on my thesis defense and job hunting (or PhD applications), so I can’t maintain this repository for now. I’ll resume organizing and updating it after graduation—thanks for your understanding.**
 
 ## Setup
 ### Install dependencies
@@ -18,7 +18,8 @@ conda activate RPA
 - Download the checkpoints of the finetuned VLPMs and MLLMs: [BLIP](https://github.com/salesforce/BLIP), [X-VLM](https://github.com/zengyan-97/X-VLM), [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2), and [InstructBLIP](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip)
 
 ## Training
-[Download](https://drive.google.com/drive/folders/1r1rFpiif4Juv-tlFSRtrBAuWjlm0CjNY?usp=sharing) the UAP of RPA.
+<!--Download](https://drive.google.com/drive/folders/1r1rFpiif4Juv-tlFSRtrBAuWjlm0CjNY?usp=sharing) the UAP of RPA.-->
+After downloading the corresponding packages, datasets, and model weights, you can start training the RPA.
 
 ## Contact
 
